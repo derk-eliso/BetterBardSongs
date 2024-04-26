@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <contentList>
+    <!-- Passives -->
+    
+    <!-- Spells -->
+
+    <!-- Statuses -->
+    <content contentuid="h6c85ea6b3e8e4f97900f46764b59c717f436" version="1">Listening to 'The Power'</content>
+    <content contentuid="h0e4303ca290844b7a516a6802a596f44a370" version="1">You're inspired by hearing the bard song [1]! Gain a +[2] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+    <content contentuid="hab8d0219460645ff8cd4624ec4344293db0e" version="1">Listening to 'The Queen's High Seas'</content>
+    <content contentuid="h0eb6a232032f44ac8c08a4043b60f0389fgg" version="1">You're inspired by hearing the bard song [1]! Gain resistance to Fire and Cold damage. While standing in water, heal for [2] at the start of each turn.</content>
+    <content contentuid="haada81895c554af985fe6ebf79d89df124a0" version="1">Listening to 'Sing for Me'</content>
+    <content contentuid="h26562e9140df4026aefa2a0d239b9a2ea8b8" version="1">You're inspired by hearing the bard song [1]! Gain [2] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+    <content contentuid="hf06eff0ec0174bc585c5045413fdc01d3g60" version="1">Listening to 'Old Time Battle'</content>
+    <content contentuid="h7af4c6b0dac04c81877417283f7afc86125e" version="1">You're inspired by hearing the bard song [1]! Gain +[2] bonus damage.</content>
+    <content contentuid="h536564507a3c471c9c6dc1ab941de05fc034" version="1">Listening to 'Bard Dance'</content>
+    <content contentuid="hbfef13f77af84e60ac63f039b9a19dd72650" version="1">You're inspired by hearing the bard song [1]! Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is doubled, and you can take one additional action per turn.</content>
+    <content contentuid="heb8da58501aa4708abcd417ea201d40440ed" version="1">Listening to 'Of Divinity and Sin'</content>
+    <content contentuid="h359d026a395e4113a8ccfc0b6866fa99gac6" version="1">You're inspired by hearing the bard song [1]! You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+    <content contentuid="haa7068b6f0a0460c814c018b794faea157fg" version="1">Blind Immunity</content>
+    <content contentuid="h73a588ef21f34cc9ab3f1d128bd1b1a04116" version="1">You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+    <content contentuid="hcfd2b510ccba4375a9b47e65767293d61b94" version="1">Perform 'New Light'</content>
+    <content contentuid="h38f72094384846769e1b57cfbd4cb61be30d" version="1">New Light</content>
+    <content contentuid="hc94afcad7f78444299190d35412bd9925002" version="1">You're inspired by hearing the bard song [1]!</content>
+  </contentList>
