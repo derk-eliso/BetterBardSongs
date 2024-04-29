@@ -1,0 +1,43 @@
+//-- Spells
+new entry "Shout_Bard_Perform_Stargazing_Whistle"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Stargazing_Whistle"
+data "UseCosts" "BonusActionPoint:1;BardicInspiration:1"
+data "SpellProperties" "IF(HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_POSITIVE,100,-1);IF(not HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_NEGATIVE,100,-1);IF(HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_POSITIVE_STARGAZING,100,2)"
+data "SpellFlags" "ImmediateCast;HasVerbalComponent;DontAbortPerforming;IsConcentration"
+data "RequirementConditions" "not HasStatus('PERFORM_POSITIVE')"
+
+new entry "Shout_Bard_Perform_Continue_Stargazing"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Continue_ThePower"
+data "SpellProperties" "SetStatusDuration(SELF,PERFORM_POSITIVE_STARGAZING,2)"
+data "Icon" "Action_Song_ThePower"
+data "DescriptionParams" "'Old Time Battles'"
+data "RequirementConditions" "HasStatus('PERFORM_POSITIVE_STARGAZING')"
+//------//
+
+//-- Statuses
+new entry "PERFORM_POSITIVE_STARGAZING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_STARGAZING"
+data "Icon" "Action_Song_OldTimeBattles"
+data "StillAnimationType" "Performing2"
+data "Boosts" "UnlockSpell(Shout_Bard_Perform_Continue_Stargazing)"
+data "AuraRadius" "8"
+data "AuraStatuses" "IF(Ally() and not Dead()):ApplyStatus(INP_AURA_STARGAZING)"
+data "PerformEventName" "Bard_Perform_Stargazing"
+
+new entry "INP_AURA_STARGAZING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLESS"
+data "Icon" "Action_Song_OldTimeBattles"
+data "DisplayName" "hf06eff0ec0174bc585c5045413fdc01d3g60"
+data "Description" "h7af4c6b0dac04c81877417283f7afc86125e"
+data "DescriptionParams" "'Old Time Battles';LevelMapValue(D4Cantrip)"
+data "Boosts" "DamageBonus(LevelMapValue(D4Cantrip))"
+data "StackId" "DAMAGE_BONUS"
+//------//

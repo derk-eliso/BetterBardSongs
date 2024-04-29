@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
   <contentList>
-    <!-- Passives -->
-    
-    <!-- Spells -->
-
-    <!-- Statuses -->
+    <!-- Existing Songs -->
     <content contentuid="h6c85ea6b3e8e4f97900f46764b59c717f436" version="1">Listening to 'The Power'</content>
     <content contentuid="h0e4303ca290844b7a516a6802a596f44a370" version="1">You're inspired by hearing the bard song [1]! Gain a +[2] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
     <content contentuid="hab8d0219460645ff8cd4624ec4344293db0e" version="1">Listening to 'The Queen's High Seas'</content>
@@ -14,12 +10,33 @@
     <content contentuid="hf06eff0ec0174bc585c5045413fdc01d3g60" version="1">Listening to 'Old Time Battle'</content>
     <content contentuid="h7af4c6b0dac04c81877417283f7afc86125e" version="1">You're inspired by hearing the bard song [1]! Gain +[2] bonus damage.</content>
     <content contentuid="h536564507a3c471c9c6dc1ab941de05fc034" version="1">Listening to 'Bard Dance'</content>
-    <content contentuid="hbfef13f77af84e60ac63f039b9a19dd72650" version="1">You're inspired by hearing the bard song [1]! Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is doubled, and you can take one additional action per turn.</content>
+    <content contentuid="hbfef13f77af84e60ac63f039b9a19dd72650" version="1">You're inspired by hearing the bard song [1]!</content>
     <content contentuid="heb8da58501aa4708abcd417ea201d40440ed" version="1">Listening to 'Of Divinity and Sin'</content>
     <content contentuid="h359d026a395e4113a8ccfc0b6866fa99gac6" version="1">You're inspired by hearing the bard song [1]! You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-    <content contentuid="haa7068b6f0a0460c814c018b794faea157fg" version="1">Blind Immunity</content>
-    <content contentuid="h73a588ef21f34cc9ab3f1d128bd1b1a04116" version="1">You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+    <!-- New Songs -->
     <content contentuid="hcfd2b510ccba4375a9b47e65767293d61b94" version="1">Perform 'New Light'</content>
     <content contentuid="h38f72094384846769e1b57cfbd4cb61be30d" version="1">New Light</content>
     <content contentuid="hc94afcad7f78444299190d35412bd9925002" version="1">You're inspired by hearing the bard song [1]!</content>
+    <content contentuid="h0d5d93e871014369a318cfd7d69047621ffb" version="1">Perform 'Streets and Faces'</content>
+    <content contentuid="h374e2cf524c04d298e9b94030ded4c501227" version="1">Streets and Faces</content>
+    <content contentuid="h694c437740dc4b87a9a6bb4b11b04b1c10fa" version="1">You're inspired by hearing the bard song [1]!</content>
+    <content contentuid="h9c55a08685404912b1f238529a7be12b1f3b" version="1">Perform 'Ale of Balduran'</content>
+    <content contentuid="hff69b8df307e4193809862585f02fa30g9bf" version="1">Ale of Balduran</content>
+    <content contentuid="h9e692e142a9f4448bb94c0f047a06c926569" version="1">You're inspired by hearing the bard song [1]!</content>
+    <content contentuid="hb240750970d54015a7cc14dcd5d98e5a896e" version="1">Perform 'We Live Another Day'</content>
+    <content contentuid="hd0d7576648f142569d49610f7e557169c239" version="1">We Live Another Day</content>
+    <content contentuid="hd3bce00618054e1c873e61131d772f612d58" version="1">You're inspired by hearing the bard song [1]!</content>
+    <content contentuid="h0b9790f31d224d46898adcbba27f3b8bg1b1" version="1">Perform 'Endless Spring'</content>
+    <content contentuid="h99d4839ddc454ecab339b454045388dfg7c9" version="1">Endless Spring</content>
+    <content contentuid="h6bbde343021c4daa9ebffd2b1e291ab8801c" version="1">You're inspired by hearing the bard song [1]!</content>
+    <!-- Temporary Spells -->
+    <content contentuid="h78902da35f2a4d01a28d70ef2f5cbfc9053g" version="1">Cancel Performance</content>
+    <content contentuid="h28f0f0ed941c47109a7e52869109c3b31526" version="1">Stop playing your current song.</content>
+    <content contentuid="hc0fed0e3430a4cc39786883cc568ba12e37d" version="1">Continue Performance</content>
+    <content contentuid="hf7692c87aa8f474cbbcffdf387c24de120a1" version="1">Keep playing [1] for continued inspiration.</content>
+    <!-- New Statuses -->
+    <content contentuid="haa7068b6f0a0460c814c018b794faea157fg" version="1">Blind Immunity</content>
+    <content contentuid="h73a588ef21f34cc9ab3f1d128bd1b1a04116" version="1">You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+    <content contentuid="hced6c16450f34c0e9eae9144549072b02344" version="1">Bardic Haste</content>
+    <content contentuid="hf7b346a530d3407ca717cdbe719ea466g133" version="1">You feel a sudden burst of energy! Gain half your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and take one additional bonus action for two turns.</content>
   </contentList>

@@ -1,0 +1,42 @@
+//-- Spells
+new entry "Shout_Bard_Perform_DOS2_2_Whistle"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_DOS2_2_Whistle"
+data "UseCosts" "BonusActionPoint:1;BardicInspiration:1"
+data "SpellProperties" "IF(HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_POSITIVE,100,-1);IF(not HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_NEGATIVE,100,-1);IF(HasProficiency('MusicalInstrument',context.Source)):ApplyStatus(PERFORM_POSITIVE_DOS2_2,100,2)"
+data "SpellFlags" "ImmediateCast;HasVerbalComponent;DontAbortPerforming;IsConcentration"
+data "RequirementConditions" "not HasStatus('PERFORM_POSITIVE')"
+
+new entry "Shout_Bard_Perform_Continue_DOS2_2"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Continue_ThePower"
+data "SpellProperties" "SetStatusDuration(SELF,PERFORM_POSITIVE_DOS2_2,2)"
+data "Icon" "Action_Song_ThePower"
+data "DescriptionParams" "'Sing For Me'"
+data "RequirementConditions" "HasStatus('PERFORM_POSITIVE_DOS2_2')"
+//------//
+
+//-- Statuses
+new entry "PERFORM_POSITIVE_DOS2_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PERFORM_POSITIVE_DOS2_2"
+data "Icon" "Action_Song_SingForMe"
+data "Boosts" "UnlockSpell(Shout_Bard_Perform_Continue_DOS2_2)"
+data "AuraRadius" "8"
+data "AuraStatuses" "TARGET:IF(not HasAnyStatus({'DOS2_JOIN_1','DOS2_JOIN_2','DOS2_JOIN_3'},{},{},context.Source) and Party()):ApplyStatus(DOS2_JOIN_2);IF(Ally() and not Dead()):ApplyStatus(INP_AURA_DOS2_2)"
+data "PerformEventName" "Bard_Perform_SingForMe"
+
+new entry "INP_AURA_DOS2_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLESS"
+data "Icon" "Action_Song_SingForMe"
+data "DisplayName" "haada81895c554af985fe6ebf79d89df124a0"
+data "Description" "h26562e9140df4026aefa2a0d239b9a2ea8b8"
+data "DescriptionParams" "'Sing for Me';TemporaryHP(1d8+Level)"
+data "Boosts" "TemporaryHP(1d8+Level)"
+data "StackId" "TEMPORARY_HP"
+//------//
