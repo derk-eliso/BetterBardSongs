@@ -9,31 +9,38 @@ new entry "Shout_Bard_Perform_Drum"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Bard_Perform_Drum"
-data "ContainerSpells" "Shout_Bard_Perform_ThePower_Drum;Shout_Bard_Perform_Stargazing_Drum;Shout_Bard_Perform_BardDance_Drum;Shout_Bard_Perform_DOS2_1_Drum;Shout_Bard_Perform_DOS2_2_Drum;Shout_Bard_Perform_DOS2_3_Drum"
+data "ContainerSpells" "Shout_Bard_Perform_ThePower_Drum;Shout_Bard_Perform_Stargazing_Drum;Shout_Bard_Perform_BardDance_Drum;Shout_Bard_Perform_DOS2_1_Drum;Shout_Bard_Perform_DOS2_2_Drum;Shout_Bard_Perform_DOS2_3_Drum;Shout_Bard_Perform_NewLight_Drum;Shout_Bard_Perform_Streets_and_Faces_Drum;Shout_Bard_Perform_BalduranAle_Drum;Shout_Bard_Perform_WeLive_Drum;Shout_Bard_Perform_EpilogueSong_Drum"
 
 new entry "Shout_Bard_Perform_Flute"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Bard_Perform_Flute"
-data "ContainerSpells" "Shout_Bard_Perform_ThePower_Flute;Shout_Bard_Perform_Stargazing_Flute;Shout_Bard_Perform_BardDance_Flute;Shout_Bard_Perform_DOS2_1_Flute;Shout_Bard_Perform_DOS2_2_Flute;Shout_Bard_Perform_DOS2_3_Flute"
+data "ContainerSpells" "Shout_Bard_Perform_ThePower_Flute;Shout_Bard_Perform_Stargazing_Flute;Shout_Bard_Perform_BardDance_Flute;Shout_Bard_Perform_DOS2_1_Flute;Shout_Bard_Perform_DOS2_2_Flute;Shout_Bard_Perform_DOS2_3_Flute;Shout_Bard_Perform_NewLight_Flute;Shout_Bard_Perform_Streets_and_Faces_Flute;Shout_Bard_Perform_BalduranAle_Flute;Shout_Bard_Perform_WeLive_Flute;Shout_Bard_Perform_EpilogueSong_Flute"
 
 new entry "Shout_Bard_Perform_Lute"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Bard_Perform_Lute"
-data "ContainerSpells" "Shout_Bard_Perform_ThePower_Lute;Shout_Bard_Perform_Stargazing_Lute;Shout_Bard_Perform_BardDance_Lute;Shout_Bard_Perform_DOS2_1_Lute;Shout_Bard_Perform_DOS2_2_Lute;Shout_Bard_Perform_DOS2_3_Lute"
+data "ContainerSpells" "Shout_Bard_Perform_ThePower_Lute;Shout_Bard_Perform_Stargazing_Lute;Shout_Bard_Perform_BardDance_Lute;Shout_Bard_Perform_DOS2_1_Lute;Shout_Bard_Perform_DOS2_2_Lute;Shout_Bard_Perform_DOS2_3_Lute;Shout_Bard_Perform_NewLight_Lute;Shout_Bard_Perform_Streets_and_Faces_Lute;Shout_Bard_Perform_BalduranAle_Lute;Shout_Bard_Perform_WeLive_Lute;Shout_Bard_Perform_EpilogueSong_Lute"
 
 new entry "Shout_Bard_Perform_Lyre"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Bard_Perform_Lyre"
-data "ContainerSpells" "Shout_Bard_Perform_ThePower_Lyre;Shout_Bard_Perform_Stargazing_Lyre;Shout_Bard_Perform_BardDance_Lyre;Shout_Bard_Perform_DOS2_1_Lyre;Shout_Bard_Perform_DOS2_2_Lyre;Shout_Bard_Perform_DOS2_3_Lyre"
+data "ContainerSpells" "Shout_Bard_Perform_ThePower_Lyre;Shout_Bard_Perform_Stargazing_Lyre;Shout_Bard_Perform_BardDance_Lyre;Shout_Bard_Perform_DOS2_1_Lyre;Shout_Bard_Perform_DOS2_2_Lyre;Shout_Bard_Perform_DOS2_3_Lyre;Shout_Bard_Perform_NewLight_Lyre;Shout_Bard_Perform_Streets_and_Faces_Lyre;Shout_Bard_Perform_BalduranAle_Lyre;Shout_Bard_Perform_WeLive_Lyre;Shout_Bard_Perform_EpilogueSong_Lyre"
 
 new entry "Shout_Bard_Perform_Violin"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Bard_Perform_Violin"
-data "ContainerSpells" "Shout_Bard_Perform_ThePower_Violin;Shout_Bard_Perform_Stargazing_Violin;Shout_Bard_Perform_BardDance_Violin;Shout_Bard_Perform_DOS2_1_Violin;Shout_Bard_Perform_DOS2_2_Violin;Shout_Bard_Perform_DOS2_3_Violin"
+data "ContainerSpells" "Shout_Bard_Perform_ThePower_Violin;Shout_Bard_Perform_Stargazing_Violin;Shout_Bard_Perform_BardDance_Violin;Shout_Bard_Perform_DOS2_1_Violin;Shout_Bard_Perform_DOS2_2_Violin;Shout_Bard_Perform_DOS2_3_Violin;Shout_Bard_Perform_NewLight_Violin;Shout_Bard_Perform_Streets_and_Faces_Violin;Shout_Bard_Perform_BalduranAle_Violin;Shout_Bard_Perform_WeLive_Violin;Shout_Bard_Perform_EpilogueSong_Violin"
+
+new entry "Shout_Bard_Perform_DUMP"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Whistle"
+data "ContainerSpells" ""
+
 //------//
 
 //-- Statuses
@@ -53,7 +60,7 @@ using "PERFORM_NEGATIVE"
 data "StackId" "PERFORM"
 data "AuraRadius" "8"
 data "AuraStatuses" "IF(Ally() and not Dead()):ApplyStatus(CUTTING_WORDS,100,3)"
-data "OnApplyFunctors" "ApplyStatus(CUTTING_WORDS,100,3)"
+data "OnApplyFunctors" "ApplyStatus(CUTTING_WORDS,100,3);BreakConcentration()"
 //------//
 
 //-- Spells
@@ -76,4 +83,12 @@ data "InstrumentComponentImpactSound" "Instrument_Bard_Silence"
 data "SpellFlags" "ImmediateCast;HasVerbalComponent;Temporary"
 data "RequirementConditions" "HasStatus('PERFORM_POSITIVE')"
 data "Sheathing" "Instrument"
+//------//
+
+
+//-- Passives
+new entry "BardicInspiration"
+type "PassiveData"
+using "BardicInspiration"
+data "Boosts" "UnlockSpell(Target_BardicInspiration);UnlockSpellVariant(IsBardSong(),ModifyUseCosts(Add,BardicInspiration,1,0))"
 //------//

@@ -17,6 +17,46 @@ data "SpellProperties" "SetStatusDuration(SELF,PERFORM_POSITIVE_STREETSANDFACES,
 data "Icon" "Action_Song_ThePower"
 data "DescriptionParams" "'Streets and Faces'"
 data "RequirementConditions" "HasStatus('PERFORM_POSITIVE_STREETSANDFACES')"
+
+new entry "Shout_Bard_Perform_Streets_and_Faces_Drum"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Streets_and_Faces_Whistle"
+data "SpellContainerID" "Shout_Bard_Perform_Drum"
+data "Icon" "Action_Song_ThePower"
+data "PrepareSound" "Instrument_Bard_Silence"
+
+new entry "Shout_Bard_Perform_Streets_and_Faces_Lyre"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Streets_and_Faces_Whistle"
+data "SpellContainerID" "Shout_Bard_Perform_Lyre"
+data "Icon" "Action_Song_ThePower"
+data "PrepareSound" "Instrument_Bard_Silence"
+
+new entry "Shout_Bard_Perform_Streets_and_Faces_Lute"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Streets_and_Faces_Whistle"
+data "SpellContainerID" "Shout_Bard_Perform_Lute"
+data "Icon" "Action_Song_ThePower"
+data "PrepareSound" "Instrument_Bard_Silence"
+
+new entry "Shout_Bard_Perform_Streets_and_Faces_Flute"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Streets_and_Faces_Whistle"
+data "SpellContainerID" "Shout_Bard_Perform_Flute"
+data "Icon" "Action_Song_ThePower"
+data "PrepareSound" "Instrument_Bard_Silence"
+
+new entry "Shout_Bard_Perform_Streets_and_Faces_Violin"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Bard_Perform_Streets_and_Faces_Whistle"
+data "SpellContainerID" "Shout_Bard_Perform_Violin"
+data "Icon" "Action_Song_ThePower"
+data "PrepareSound" "Instrument_Bard_Silence"
 //------//
 
 //-- Statuses

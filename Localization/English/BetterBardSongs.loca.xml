@@ -7,7 +7,7 @@
     <content contentuid="h0eb6a232032f44ac8c08a4043b60f0389fgg" version="1">You're inspired by hearing the bard song [1]! Gain resistance to Fire and Cold damage. While standing in water, heal for [2] at the start of each turn.</content>
     <content contentuid="haada81895c554af985fe6ebf79d89df124a0" version="1">Listening to 'Sing for Me'</content>
     <content contentuid="h26562e9140df4026aefa2a0d239b9a2ea8b8" version="1">You're inspired by hearing the bard song [1]! Gain [2] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
-    <content contentuid="hf06eff0ec0174bc585c5045413fdc01d3g60" version="1">Listening to 'Old Time Battle'</content>
+    <content contentuid="hf06eff0ec0174bc585c5045413fdc01d3g60" version="1">Listening to 'Old Time Battles'</content>
     <content contentuid="h7af4c6b0dac04c81877417283f7afc86125e" version="1">You're inspired by hearing the bard song [1]! Gain +[2] bonus damage.</content>
     <content contentuid="h536564507a3c471c9c6dc1ab941de05fc034" version="1">Listening to 'Bard Dance'</content>
     <content contentuid="hbfef13f77af84e60ac63f039b9a19dd72650" version="1">You're inspired by hearing the bard song [1]!</content>
@@ -34,9 +34,4 @@
     <content contentuid="h28f0f0ed941c47109a7e52869109c3b31526" version="1">Stop playing your current song.</content>
     <content contentuid="hc0fed0e3430a4cc39786883cc568ba12e37d" version="1">Continue Performance</content>
     <content contentuid="hf7692c87aa8f474cbbcffdf387c24de120a1" version="1">Keep playing [1] for continued inspiration.</content>
-    <!-- New Statuses -->
-    <content contentuid="haa7068b6f0a0460c814c018b794faea157fg" version="1">Blind Immunity</content>
-    <content contentuid="h73a588ef21f34cc9ab3f1d128bd1b1a04116" version="1">You can see through magical and non-magical darkness, and cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-    <content contentuid="hced6c16450f34c0e9eae9144549072b02344" version="1">Bardic Haste</content>
-    <content contentuid="hf7b346a530d3407ca717cdbe719ea466g133" version="1">You feel a sudden burst of energy! Gain half your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and take one additional bonus action for two turns.</content>
   </contentList>
